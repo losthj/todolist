@@ -12,12 +12,14 @@ npm install
 npm start
 
 /**/
+
 生命周期
 1、组件初始
 2、组件更新
 3、组件卸载
 
 创建时                          更新时                               卸载时
+
 constructor          new props   setState()   forceUpdate()
 
 -----------------render-------------------------
